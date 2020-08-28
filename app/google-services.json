@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "579375576733",
+    "firebase_url": "https://loginui-ff3f2.firebaseio.com",
+    "project_id": "loginui-ff3f2",
+    "storage_bucket": "loginui-ff3f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579375576733:android:e99a4f1edd05659e",
+        "android_client_info": {
+          "package_name": "com.example.sym.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579375576733-m8ku9n2334tmlquut53ddt49blvmv7ul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sym.login",
+            "certificate_hash": "aab6ae532bdf12be8e85082bbaa2eac7ad923f4f"
+          }
+        },
+        {
+          "client_id": "579375576733-848fqu8pbtpdblo1qu2ptgbnsltei7gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOh3yRxnSyTulOoOEIUGXXcz7pnj0v1hA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579375576733-848fqu8pbtpdblo1qu2ptgbnsltei7gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

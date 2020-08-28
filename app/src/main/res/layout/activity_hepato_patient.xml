@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:id="@+id/linearLayout"
+        android:background="#A93226">
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="REGISTER PATIENT"
+            android:fontFamily="serif-monospace"
+            android:textColorHighlight="#ffffff"
+            android:textSize="28dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/registerno"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColorHighlight="#ffffff"
+            android:textSize="20dp"
+            android:textColor="#58D68D"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/age"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Name"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editAge"
+            android:inputType="number"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/name"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Age"
+            android:background="@drawable/lighttext"/>
+
+
+        <EditText
+            android:id="@+id/editsex"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/sex"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Sex"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/location"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Address"
+            android:background="@drawable/lighttext"/>
+
+        <!--<EditText
+            android:id="@+id/editDate"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/date"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Date"
+            android:background="@drawable/lighttext"/>-->
+
+
+
+        <EditText
+            android:id="@+id/editComplaint"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/comment"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Complaint"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editHOPI"
+            android:layout_width="331dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/find"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Other Histories of Present Illness"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editmedical"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/history"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Past Medical History"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editSurgery"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/search"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Past Surgical History"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editallegry"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/alert"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Drug Allegry"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editfamilyhistory"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/announce"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Family History"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editsocialhistory"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/create"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Social History"
+            android:background="@drawable/lighttext"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:text="Physical Examination"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorHighlight="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editgeneralcondition"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/create"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="General Condition"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/edittemperature"
+            android:layout_width="331dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/temperature"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Temperature"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editanaemia"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/anaemia"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Anaemia"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editjaundice"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/jaundice"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Jaundice"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editheart"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/heart"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Heart"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editlung"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/lungs"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Lung"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editabdomen"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/abdomen"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Abdomen"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editspo2"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/create"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="SPO2"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editpulserate"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/pulserate"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Pulse Rate"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editbloodpressure"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/blpress"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Blood Pressure"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editurineoutput"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/urine"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Urine Output"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editPD"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/comment"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Provisional Diagnosis"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/editinvestigation"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/check"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Investigation"
+            android:background="@drawable/lighttext"/>
+
+        <EditText
+            android:id="@+id/edittreatment"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/report"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#170A03"
+            android:textColorHint="#EDBB99"
+            android:hint="Treatment"
+            android:background="@drawable/lighttext"/>
+
+        <Spinner
+            android:id="@+id/spinnerDevices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="REGISTER"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:background="@drawable/button_shape"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="331dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="60dp"
+            android:layout_gravity="center_horizontal"
+            android:text="BACK"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:background="@drawable/button_shape"/>
+
+    </LinearLayout>
+
+</ScrollView>

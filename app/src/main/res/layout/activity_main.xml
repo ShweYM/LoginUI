@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="10dp"
+            android:layout_centerInParent="true"
+            android:weightSum="1"
+            android:padding="20dp"
+            android:id="@+id/linearLayout"
+            android:background="@drawable/red">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/logo2" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:inputType="textEmailAddress"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-light"
+                android:hint="Email"
+                android:drawablePadding="10dp"
+                android:background="#FFFFFF"
+                android:textColorHint="#FF192133"
+                android:textColor="#FF0000"
+                android:drawableRight="@drawable/ic_person"
+
+                />
+
+            <!--<EditText android:id="@+id/editEmail"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:inputType="textEmailAddress"
+                android:visibility="gone"
+                android:drawableRight="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:background="#FFFFFF"
+                android:textColorHint="#FF192133"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#FF0000"
+                android:hint="Email"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+               />-->
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-light"
+                android:hint="Password"
+                android:drawablePadding="20dp"
+                android:inputType="textPassword"
+                android:textColor="#FF0000"
+                android:textColorHint="#FF192133"
+                android:background="#FFFFFF"
+                android:drawableRight="@drawable/ic_key"
+                />
+
+            <!--<EditText
+                android:id="@+id/editUserRole"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#FF0000"
+                android:drawablePadding="10dp"
+                android:hint="doctor or drug seller"
+                android:background="#FFFFFF"
+                android:textColorHint="#FF192133"
+                android:visibility="gone"
+                android:drawableRight="@drawable/ic_person" />-->
+
+            <!--&lt;!&ndash;spinner&ndash;&gt;
+            <Spinner android:id="@+id/spinner"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:drawSelectorOnTop="true"
+
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:visibility="gone"></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/selection"/>-->
+
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="SIGN IN"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:background="@drawable/button_shape"/>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="REGISTER"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:background="@drawable/button_shape"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>
